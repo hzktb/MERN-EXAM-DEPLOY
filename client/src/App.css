@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.header {
+  text-align: left;
+}
+
+h1 {
+  display: inline-block;
+
+  margin-right: 20%;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: left;
+}
+table {
+  text-align: left;
+  font-size: 20px;
+  border: 2px solid black;
+  border-right: 0;
+  border-spacing: 0px;
+}
+
+.listTable td,
+.listTable th {
+  border-right: 2px solid black;
+}
+
+thead {
+  background-color: rgb(179, 174, 174);
+  outline: 1px solid black;
+}
+
+td,
+th {
+  padding-left: 10px;
+  padding-right: 50px;
+}
+
+form {
+  display: flex;
+  width: 70%;
+  height: 310px;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: column;
+  flex-wrap: wrap;
+  outline: 2px solid black;
+}
+
+label {
+  display: block;
+}
+
+span {
+  display: inline-block;
+}
+
+.submit {
+  width: 100px;
+  color: #fff;
+  background-color: rgb(64, 81, 177);
+}
+
+.delete {
+  margin-left: 100px;
+  background-color: rgb(255, 44, 44);
+  color: #fff;
+}
+
+.detailTable {
+  width: 500px;
+}
+
+.detailTable tr {
+  height: 50px;
+}
